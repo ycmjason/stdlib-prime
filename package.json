@@ -1,0 +1,21 @@
+{
+  "name": "prime",
+  "version": "0.0.0",
+  "description": "Service",
+  "author": "ycmjason <me@ycmjason.com>",
+  "main": "f/main/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "private": true,
+  "stdlib": {
+    "name": "ycmjason/prime",
+    "defaultFunction": "main",
+    "timeout": 10000,
+    "publish": false
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
