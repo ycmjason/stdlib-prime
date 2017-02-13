@@ -1,6 +1,6 @@
 {
   "name": "prime",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Service",
   "author": "ycmjason <me@ycmjason.com>",
   "main": "f/main/index.js",

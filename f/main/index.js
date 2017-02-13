@@ -21,10 +21,8 @@ module.exports = (params, callback) => {
   if(!n) return callback(null, 'undefined n');
   if(n <= 0) return callback(null, 'n <= 0');
 
-  var tstart = new Date().getTime();
   var p = prime(n);
-  var tend = new Date().getTime();
 
-  callback(null, p + ' in ' + (tend - tstart) + 'ms: ' + prime.memoised);
+  callback(null, p);
 
 };
